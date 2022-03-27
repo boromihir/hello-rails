@@ -1,0 +1,15 @@
+AllCops:
+  Exclude:
+    - "db/**/*"
+    - "config/**/*"
+    - "script/**/*"
+    - "bin/**/*"
+    - "vendor/**/*"
+    - "spec/fixtures/**/*"
+    - "tmp/**/*"
+
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false

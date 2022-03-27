@@ -1,5 +1,7 @@
-class Comment < ApplicationRecord
-    include Visible
+# frozen_string_literal: true
 
-    belongs_to :article
+class Comment < ApplicationRecord
+  include Visible
+
+  belongs_to :article
 end
